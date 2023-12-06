@@ -1,0 +1,29 @@
+{
+  "name": "goit-node-hw-1",
+  "version": "1.0.0",
+  "description": "Node.js course from GoIT",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node index",
+    "dev": "nodemon index"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/SaltyUA/goit-node-hw-1.git"
+  },
+  "author": "SaltyUA",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/SaltyUA/goit-node-hw-1/issues"
+  },
+  "homepage": "https://github.com/SaltyUA/goit-node-hw-1#readme",
+  "devDependencies": {
+    "nodemon": "^3.0.1"
+  },
+  "dependencies": {
+    "commander": "^11.1.0",
+    "nanoid": "^5.0.3"
+  }
+}
